@@ -6,6 +6,7 @@
 
 :root {
 	--gradient: linear-gradient(270deg, #22D3EE 50%, #0EA5E9 100%);
+	
 }
 
 body {
@@ -108,6 +109,7 @@ section a img {
 	border-radius: 50%;
 	width: 60px;
 	height: 60px;
+	box-shadow: 0px 0px 7px -3px white;
 }
 
 footer p {
@@ -132,10 +134,14 @@ footer div {
 .biography-info p {
 	margin-top: 48px;
 	color: #CBD5E1;
-	width: 713px;
+	width: 720px;
 	font-weight: 500;
 	font-size: 26px;
 	line-height: 40.47px;
+}
+
+.biography-info p:last-child {
+	margin-top: 0;
 }
 
 .starter img {
@@ -286,6 +292,7 @@ footer div {
 	margin-left: 17px;
 	margin-right: 76px;
 }
+
 .trophy-img {
 	max-width: 150px;
 	max-height: 191px;
@@ -303,11 +310,12 @@ footer div {
 .view-post {
 	display: flex;
 	align-items: center;
-	margin-right: 11px;
+	margin-right: 12px;
 }
 
 .cards {
 	display: flex;
+	flex-flow: row wrap;
 }
 
 .card {

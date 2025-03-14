@@ -157,7 +157,13 @@ section a img {
 	margin: 0;
 }
 
-.view-post img {
+.view-post a {
+	width: 20px;
+	height: 20px;
+	margin: 0;
+}
+
+.view-post a img {
 	width: 20px;
 	height: 20px;
 }

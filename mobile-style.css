@@ -1,0 +1,343 @@
+@import url(./style.css);
+
+@media (max-width: 375px) {
+
+body {
+	max-width: 320px;
+	height: 2491px;
+}
+
+header {
+	padding: 12px 0 0 0;
+	margin: 0 13px;
+	max-width: 100%;
+	height: auto;
+}
+
+main {
+	margin-bottom: 57px;
+}
+
+footer {
+	flex-direction: column;
+}
+
+section	{
+	max-width: 287px;
+	margin: 36px auto 0 auto;
+}
+
+content {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+}
+
+h1 {
+	font-size: 20px;
+	line-height: 100%;
+	margin: 17px 0 16px 0;
+}
+
+h2 {
+	font-size: 20px;
+	line-height: 100%;
+	margin: 0;
+	margin-left: 8px;
+}
+
+h3 {
+	font-size: 15px;
+	line-height: normal;
+}
+
+h4 {
+	margin: 0;
+	font-size: 15px;
+	line-height: normal;
+}
+
+hr {
+	margin-bottom: 9px;
+}
+
+br {
+  display: none;
+}
+
+footer p {
+	font-size: 8px;
+	margin: 0;
+	margin-bottom: 5px;
+}
+
+footer img {
+	width: 15px;
+	height: 15px;
+	margin-left: 10px;
+}
+
+footer div {
+	margin: 0;
+}
+
+nav ul {
+	width: 122px;
+	height: 12px;
+}
+
+nav ul li {
+	margin: 0px;
+}
+
+li a {
+	font-size: 10px;
+}
+
+content img {
+	width: 100px;
+	height: 100px;
+}
+
+section a {
+	line-height: 0;
+	margin-top: 28px;
+	margin-right: 20px;
+}
+
+section a:last-child {
+	margin-right: 0;
+}
+
+.starter img {
+	width: 25px;
+	height: 25px;
+}
+
+.biography-info p {
+	font-size: 10px;
+	margin: 0 0 0 8px;
+	width: auto;
+	line-height: 20px;
+}
+
+.biography-info p:last-child {
+	line-height: normal;
+}
+
+.proj div p {
+	font-size: 10px;
+	line-height: normal;
+	margin: 0 0 10px 0;
+}
+
+.proj div p:last-child {
+	margin: 0;
+}
+
+.proj-content div {
+	justify-content: center;
+	align-items: center;
+	margin: 0 0 18px 0;
+}
+
+.first-section a img {
+    margin: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.second-section h2 {
+	margin-bottom: 25px;
+}
+
+.view-post p {
+	font-size: 12px;
+	line-height: normal;
+	margin: 0;
+}
+
+.view-post a {
+	width: 20px;
+	height: 20px;
+	margin: 0;
+}
+
+.view-post a img {
+	width: 20px;
+	height: 20px;
+}
+
+.latest-post-head h2 {
+	margin-left: 8px;
+}
+
+.cards img {
+	max-width: 230px;
+	max-height: 183px;
+}
+
+.cards a {
+		margin: 0 0 33px 0;
+}
+
+.cards a:last-child {
+	margin-bottom: 0;
+}
+
+.last-section div {
+	width: auto;
+}
+
+.last-section p {
+	font-size: 10px;
+	margin: 0 0 15px 8px;
+}
+
+.button-get-started button {
+	font-size: 10px;
+	line-height: 100%;
+	padding: 9px 17px;
+	margin: 5px 0;
+}
+
+.button-get-started input {
+	margin: 0 19px 0 0;
+	font-size: 10px;
+}
+
+.starter {
+	height: auto;
+}
+
+.biography-info {
+	margin: 0;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.first-section {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin-bottom: 58px;
+}
+
+.second-section {
+	margin-bottom: 36px;
+}
+
+.third-section {
+	margin-bottom: 41px;
+}
+
+.proj {
+	flex-direction: column;
+	max-width: 287px;
+	height: auto;
+	padding: 10px;
+	margin-bottom: 25px;
+}
+
+.idea-lamp-img {
+	max-width: 50px;
+	max-height: 46px;
+	margin: 0 0 18px 0;
+}
+
+.loading-img {
+	max-width: 50px;
+	max-height: 52px;
+	margin: 0 0 18px 0;
+}
+
+.trophy-img {
+	max-width: 50px;
+	max-height: 63px;
+	margin: 0 0 18px 0;
+}
+
+.latest-post-head {
+	margin-bottom: 29px;
+}
+
+.view-post {
+	margin-right: 10px;
+}
+
+.cards {
+	justify-content: center;
+}
+
+.card {
+	max-height: 322px;
+	max-width: 230px;
+}
+
+.card-content {
+	margin: 0 9px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.card-name {
+	margin-top: 14px;
+	margin-bottom: 9px;
+	font-size: 15px;
+	line-height: normal;
+}
+
+.card-date {
+	margin-bottom: 14px;
+	font-size: 12px;
+	line-height: normal;
+}
+
+.card-info {
+	font-size: 12px;
+	line-height: normal;
+}
+
+.last-section {
+	flex-direction: column;
+}
+
+.last-h2 {
+	font-size: 20px;
+	line-height: normal;
+	margin: 0 0 20px 8px;
+}
+
+.button-get-started {
+	margin: 0;
+	padding: 0 6px 0 19px;
+	max-width: 280px;
+	height: auto;
+}
+
+.git-img {
+	width: 10px;
+	height: 10px;
+}
+
+#green-frame {
+	font-size: 10px;
+	line-height: 100%;
+	margin: 0 0 0 10px;
+}
+
+#red-frame {
+	font-size: 10px;
+	line-height: 100%;
+	margin: 0 0 0 10px;
+}
+
+#purple-frame {
+	font-size: 10px;
+	line-height: 100%;
+	margin: 0 0 0 10px;
+}
+
+}
